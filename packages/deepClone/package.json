@@ -1,8 +1,8 @@
 {
-  "name": "@limin/deep-clone",
+  "name": "@yilimin/deep-clone",
   "version": "1.0.1",
   "description": "> TODO: description",
-  "author": "yilimin <yilimin@1b1k.net>",
+  "author": "yilimin <yilimin985@163.com>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/deepClone.js",
@@ -18,5 +18,6 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  },
+  "gitHead": "c848a63ba1b2f5e7b037e184376f657c797a3e7b"
 }
