@@ -5,7 +5,7 @@ module.exports = setZeroTimeout;
 function setZeroTimeout() {
     var timeouts = [];
     var messageName = 'zero-timeout-message';
-
+    let window = window || global;
     // 保持 setTimeout 的形态，只接受单个函数的参数，延迟始终为 0。
     function setZeroTimeout(fn) {
         timeouts.push(fn);
