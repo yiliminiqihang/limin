@@ -1,0 +1,22 @@
+{
+  "name": "@limin/deep-clone",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "yilimin <yilimin@1b1k.net>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/deepClone.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
