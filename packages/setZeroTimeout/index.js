@@ -1,5 +1,3 @@
 
-const setZeroTimeout = require('./lib/setZeroTimeout');
 
-
-module.exports = setZeroTimeout;
+export * from './lib/index'

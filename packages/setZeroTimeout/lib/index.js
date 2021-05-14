@@ -1,8 +1,8 @@
 'use strict';
 
-module.exports = setZeroTimeout;
+// module.exports = setZeroTimeout;
 
-function setZeroTimeout() {
+export function setZeroTimeout() {
     var timeouts = [];
     var messageName = 'zero-timeout-message';
     let glo = global;
@@ -33,4 +33,4 @@ function setZeroTimeout() {
     return setZeroTimeout;
 }
 
-console.log(setZeroTimeout);
+// console.log(setZeroTimeout);
